@@ -16,6 +16,30 @@ int main() {
 	std::cout << "Enter number of a day: ";
 	std::cin >> data;
 
-	std::cout << CURRENT_DAY(day);
-
+	switch(data)
+	{
+		case 0:
+			std::cout << CURRENT_DAY(0);
+			break;
+		case 1:
+			std::cout << CURRENT_DAY(1);
+			break;
+		case 2:
+			std::cout << CURRENT_DAY(2);
+			break;
+		case 3:
+			std::cout << CURRENT_DAY(3);
+			break;
+		case 4:
+			std::cout << CURRENT_DAY(4);
+			break;
+		case 5:
+			std::cout << CURRENT_DAY(5);
+			break;
+		case 6:
+			std::cout << CURRENT_DAY(6);
+			break;
+		
+	}
+	
 }
